@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountOnboarding</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Account Onboarding</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>{!$Site.BaseUrl}/lightning/page/omnistudio/omniscript?omniscript__type=RetailOnboarding&amp;omniscript__subType=retailOnboarding&amp;omniscript__language=English&amp;omniscript__theme=lightning&amp;omniscript__tabIcon=custom:custom18&amp;omniscript__tabLabel=Account%20Opening&amp;omniscript__ContextId={!Account.Id}</url>
+</WebLink>

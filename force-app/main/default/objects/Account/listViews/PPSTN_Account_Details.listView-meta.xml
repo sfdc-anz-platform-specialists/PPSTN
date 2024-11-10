@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PPSTN_Account_Details</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>PPSTN_ClientID__c</columns>
+    <columns>PPSTN_CLientMNR__c</columns>
+    <columns>PPSTN_ClientRiskRating__c</columns>
+    <columns>PPSTN_LegalEntityType__c</columns>
+    <columns>PPSTN_License__c</columns>
+    <columns>PPSTN_RiskFlag__c</columns>
+    <columns>PPSTN_OnboardingStatus__c</columns>
+    <columns>PPSTN_HasOffersId__c</columns>
+    <columns>PPSTN_COR__c</columns>
+    <columns>PPSTN_License_Type_SF__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PPSTN_ClientID__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>PPSTN Account Details</label>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PPSTN_UserRole__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>PPSTN_UserRole</label>
+    <referenceTo>PPSTN_UserRole__c</referenceTo>
+    <relationshipLabel>PPSTN_TradingAccountApproval</relationshipLabel>
+    <relationshipName>PPSTN_TradingAccountApproval</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

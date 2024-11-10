@@ -1,0 +1,22 @@
+<template>
+    <!-- <lightning-card
+        title="Pepperstone Clients (LWC Datatable)"
+        icon-name="custom:custom63"
+    > -->
+        <div class="slds-m-around_medium">
+            <template if:true={account.data}>
+                <lightning-datatable
+                    key-field="Id"
+                    data={account.data}
+                    columns={columns}
+                    onsave={handleSave}
+                    draft-values={draftValues}
+                >
+                </lightning-datatable>
+            </template>
+            <template if:true={account.error}>
+                <!-- handle Apex error -->
+            </template>
+        </div>
+    <!-- </lightning-card> -->
+</template>

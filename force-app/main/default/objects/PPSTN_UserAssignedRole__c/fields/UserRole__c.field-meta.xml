@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UserRole__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>UserRole</label>
+    <referenceTo>PPSTN_UserRole__c</referenceTo>
+    <relationshipLabel>PPSTN_UserAssignedRoles</relationshipLabel>
+    <relationshipName>PPSTN_UserAssignedRoles</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
